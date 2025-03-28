@@ -1,0 +1,804 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 0.5%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.inputSearch,
+#searchForm {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 340px;
+    border-radius: 35px;
+    overflow: hidden;
+    border: 1px solid #1aabe5;
+}
+
+.inputSearch input {
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.inputSearch span {
+    width: 70px;
+    background-color: #0c9bb0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.bookmarks {
+    padding: 20px;
+  }
+  
+  .bookmark {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+
+.col {
+    flex-basis: 50%;
+}
+
+.col h1 {
+    color: aqua;
+    font-size: 90px;
+}
+
+.col p {
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: left;
+    width: 470px;
+}
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    width: 230px;
+    height: 220px;
+    display: inline-block;
+    padding: 2px 3px;
+    padding-left: 40%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 2px 2px;
+    background-position: center;
+    background-size: cover;
+    align-self: right;
+}
+
+
+.card1 {
+    background-image: url('../assets/images/worldflags1.jpg');
+}
+
+.card2 {
+    background-image: url('../assets/images/busystreet2.jpg');
+}
+
+.card3 {
+    background-image: url('../assets/images/football5.jpg');
+}
+
+.card4 {
+    background-image: url('../assets/images/elonmusk.jpg');
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+}
+
+.news {
+    align-items: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: black;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    background: #ffffff;
+}
+
+.card img {
+    min-height: 210px;
+    max-height: 210px;
+}
+
+.card h4,
+.card div {
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.card a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.publishbyDate {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.publishbyDate p {
+    margin: 0px;
+    font-size: 14px;
+    color: black;
+}
+
+.publishbyDate span {
+    padding: 0px 10px;
+}
+
+.desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin: 0;
+}
+
+/* Load More button styling (similar to Learn More) */
+.load-more-btn {
+    height: 3rem;
+    width: 14rem;
+    background: transparent;
+    border: 0.2rem solid black;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-more-btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.action-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .action-icon:hover {
+    transform: scale(1.1);
+  }
+  
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 35px;
+    font-size: 25px;
+    font-style: bold;
+}
+
+/* Navbar.css or relevant CSS file */
+.navbar-dark {
+    background-color:#0c9bb0; /* Dark background color */
+    color: #fff; /* Text color for visibility */
+    margin-right: 50px;
+  }
+  
+  /* Additional styling for links if needed */
+  .navbar-dark a {
+    color: #ffffff;
+    margin-right: 20px;
+  }
+  
+  .navbar-dark .navbar-item {
+    border-bottom: 1px solid #444444;
+  }
+  
+
+
+.nav-bar ul li {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    transition: all 1s ease-in-out;
+    font-style: bold;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 10 px;
+}
+
+.nav-bar ul li:hover {
+    background: skyblue;
+}
+
+.nav-bar ul li a {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+
+#feature {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background: black;
+}
+
+#feature h1 {
+    color: #fff;
+    font-size: 4rem;
+    margin: 2rem 0;
+
+}
+
+#feature .card-container {
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    overflow: hidden;
+    padding-bottom: 10px;
+    gap: 25px;
+
+}
+
+#feature .card-container .card {
+    width: 25rem;
+    height: 28rem;
+    background: #fff;
+
+}
+
+#feature .card-container .card img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+
+#feature .card-container .card .content {
+    height: 30%;
+    width: 100%;
+}
+
+#feature .card-container .card .content h1 {
+    color: black;
+    font-size: 1.4rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 0.8rem 0.5rem;
+
+}
+
+#feature .card-container .card .content p {
+    font-size: 1.15rem;
+    padding: 0.2rem;
+    color: black;
+    grid-template-columns: fit-content(24rem);
+    margin: 0.5rem 0.5rem;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#feature .card-container .card .content button {
+    height: 3rem;
+    width: 14rem;
+    background: transparent;
+    border: .2rem solid black;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem;
+}
+
+#feature .card-container .card .content button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.footer {
+    background: var(--black);
+    background-color: black;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+.footer .box-container .box {
+    margin: 1rem;
+    flex: 1 1 5rem;
+
+}
+
+.footer .box-container .box h3 {
+    font-size: 2rem;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+.footer .box-container .box p {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.2rem 0;
+    text-align: center;
+   text-justify: inter-word; 
+}
+
+.location-text {
+    margin: 2px 0;  /* Reduce vertical margin 
+    padding: 0;     /* Remove any padding 
+    text-align: center;
+    display: inline-block;
+  } */
+
+
+  .footer .box-container .box {
+    margin: 1rem;
+    flex: 1 1 5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2rem;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+.footer .box-container .box p {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.2rem 0;
+    text-align: center; /* Default alignment for other boxes */
+}
+
+/* Specific styles for the About Us box */
+.footer .box-container .box.about-us p {
+    text-align: justify; /* Justify text for About Us */
+    text-justify: inter-word; /* Optional: improves justification */
+}
+
+.location-text {
+    margin: 2px 0;  /* Reduce vertical margin */
+    padding: 0;     /* Remove any padding */
+    text-align: center;
+    display: inline-block;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+  
+
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media all and (min-width:700px) {
+    main {
+        padding: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.auth .login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.auth .login-overlay .login-form-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    height: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.auth h2 {
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    color: #333;
+}
+
+.auth form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.auth label {
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+    margin-left: 5rem;
+}
+
+.auth input {
+    width: 80%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.auth button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+    margin-left: 12rem;
+    gap: 1rem;
+}
+
+.auth button[type="submit"]:hover {
+    background-color: black;
+}
+
+.auth .signup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.auth .signup-overlay .signup-form-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    height: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.enquiry-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Transparent dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Make sure it stays on top */
+}
+
+.enquiry-overlay .enquiry-form-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    height: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.enquiry-overlay .enquiry-form-container h2 {
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+    color: #333;
+}
+
+.enquiry-overlay .enquiry-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.enquiry-form-container label {
+    font-size: 1rem;
+    text-align: left;
+    color: #333;
+    margin-left: 5rem;
+}
+
+.enquiry-form-container input,
+.enquiry-form-container textarea {
+    width: 80%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.enquiry-form-container textarea {
+    height: 100px;
+    resize: none;
+}
+
+.enquiry-form-container button[type="submit"] {
+    background-color: black;
+    width: 20%;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 12rem;
+}
+
+.enquiry-form-container button[type="submit"]:hover {
+    background-color: black;
+}
+
+/* Close button in the top right */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #555;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+/* Enquiry Button in Navbar */
+.navbar button {
+    background-color: black;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    /* Remove default border */
+    padding: 10px 20px;
+    /* Padding around the button */
+    font-size: 1.5rem;
+    /* Font size */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+
+.navbar button:hover {
+    background-color: rgb(rgb(138, 90, 90), green, blue);
+    /* Darker green on hover */
+}
+
+.navbar button:focus {
+    outline: none;
+    /* Remove default button focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Slight shadow when focused */
+}
+
+/* Sidebar container */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    /* Shift the sidebar off-screen to the right */
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    padding-top: 60px;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.active {
+    right: 0;
+    /* When active, the sidebar slides in from the right */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 15px;
+    color: white;
+}
+.sidebar-item {
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+    color: white;
+  }
+
+.sidebar ul li button {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Toggle button to open the sidebar */
+.sidebar-toggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    /* Move the toggle button to the right side */
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    z-index: 1100;
+    background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button inside the sidebar */
+.close-sidebar {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    /* Close button inside the sidebar on the left */
+    background: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* .news-actions {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }  */
+  
+  .action-icon {
+    cursor: pointer;
+    font-size: 25px;
+    color:rgb(59, 55, 55);
+    position: relative;
+    margin-bottom: 5px;
+    right: -150px;
+    gap: 15px;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .action-icon:hover {
+    color: #9a0808;
+    /* background-color: black; */
+  }
